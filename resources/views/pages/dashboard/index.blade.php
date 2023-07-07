@@ -1,6 +1,6 @@
-@extends('layouts.app')
-@section('content')
-    <div class="container-fluid py-4">
+<x-main-layout>
+<x-slot name=content>
+<div class="container-fluid py-4">
         <div class="row">
             <div class="col-lg-12">
                 <div class="row">
@@ -113,4 +113,5 @@
                 </div>
             </div>
         </div>
-    @endsection
+</x-slot>
+</x-main-layout>

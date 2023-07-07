@@ -16,3 +16,5 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/',[HomeController::class,'index'])->name('dashboard');
 Route::get('/student',[HomeController::class,'student'])->name('student');
+
+

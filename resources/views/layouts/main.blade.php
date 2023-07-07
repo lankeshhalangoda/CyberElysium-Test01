@@ -19,7 +19,7 @@
         @include('components.navbar')
 
 
-        @yield('content')
+        {{ $content ?? ''}}
 
 
         <div class="mt-5"></div>
